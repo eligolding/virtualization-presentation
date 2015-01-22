@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4754c460-7fe8-4244-90c0-aa11e1047e57" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/assets/image1.png" afterPath="$PROJECT_DIR$/test/examples/assets/image1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/assets/image2.png" afterPath="$PROJECT_DIR$/test/examples/assets/image2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.eot" afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.ttf" afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.woff" afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.eot" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.ttf" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.woff" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-italic.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.eot" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.ttf" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.woff" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.eot" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.woff" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibold.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro-semibolditalic.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/league-gothic/LICENSE" afterPath="$PROJECT_DIR$/lib/font/league-gothic/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/LICENSE" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/README.md" afterPath="$PROJECT_DIR$/css/theme/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/barebones.html" afterPath="$PROJECT_DIR$/test/examples/barebones.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/beige.css" afterPath="$PROJECT_DIR$/css/theme/beige.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/beige.scss" afterPath="$PROJECT_DIR$/css/theme/source/beige.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/black.css" afterPath="$PROJECT_DIR$/css/theme/black.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/black.scss" afterPath="$PROJECT_DIR$/css/theme/source/black.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/blood.css" afterPath="$PROJECT_DIR$/css/theme/blood.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/blood.scss" afterPath="$PROJECT_DIR$/css/theme/source/blood.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/js/classList.js" afterPath="$PROJECT_DIR$/lib/js/classList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/multiplex/client.js" afterPath="$PROJECT_DIR$/plugin/multiplex/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/notes-server/client.js" afterPath="$PROJECT_DIR$/plugin/notes-server/client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/embedded-media.html" afterPath="$PROJECT_DIR$/test/examples/embedded-media.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/markdown/example.html" afterPath="$PROJECT_DIR$/plugin/markdown/example.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/markdown/example.md" afterPath="$PROJECT_DIR$/plugin/markdown/example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/js/head.min.js" afterPath="$PROJECT_DIR$/lib/js/head.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/highlight/highlight.js" afterPath="$PROJECT_DIR$/plugin/highlight/highlight.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/js/html5shiv.js" afterPath="$PROJECT_DIR$/lib/js/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/multiplex/index.js" afterPath="$PROJECT_DIR$/plugin/multiplex/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/notes-server/index.js" afterPath="$PROJECT_DIR$/plugin/notes-server/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_original.html" afterPath="$PROJECT_DIR$/index_original.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.css" afterPath="$PROJECT_DIR$/lib/font/league-gothic/league-gothic.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/league.css" afterPath="$PROJECT_DIR$/css/theme/league.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/league.scss" afterPath="$PROJECT_DIR$/css/theme/source/league.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/leap/leap.js" afterPath="$PROJECT_DIR$/plugin/leap/leap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/markdown/markdown.js" afterPath="$PROJECT_DIR$/plugin/markdown/markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/markdown/marked.js" afterPath="$PROJECT_DIR$/plugin/markdown/marked.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/multiplex/master.js" afterPath="$PROJECT_DIR$/plugin/multiplex/master.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/math.html" afterPath="$PROJECT_DIR$/test/examples/math.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/math/math.js" afterPath="$PROJECT_DIR$/plugin/math/math.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/template/mixins.scss" afterPath="$PROJECT_DIR$/css/theme/template/mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/moon.css" afterPath="$PROJECT_DIR$/css/theme/moon.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/moon.scss" afterPath="$PROJECT_DIR$/css/theme/source/moon.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/night.css" afterPath="$PROJECT_DIR$/css/theme/night.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/night.scss" afterPath="$PROJECT_DIR$/css/theme/source/night.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/notes/notes.html" afterPath="$PROJECT_DIR$/plugin/notes/notes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/notes-server/notes.html" afterPath="$PROJECT_DIR$/plugin/notes-server/notes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/notes/notes.js" afterPath="$PROJECT_DIR$/plugin/notes/notes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/print/paper.css" afterPath="$PROJECT_DIR$/css/print/paper.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/print/pdf.css" afterPath="$PROJECT_DIR$/css/print/pdf.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/print-pdf/print-pdf.js" afterPath="$PROJECT_DIR$/plugin/print-pdf/print-pdf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/qunit-1.12.0.css" afterPath="$PROJECT_DIR$/test/qunit-1.12.0.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/qunit-1.12.0.js" afterPath="$PROJECT_DIR$/test/qunit-1.12.0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/remotes/remotes.js" afterPath="$PROJECT_DIR$/plugin/remotes/remotes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/reveal.css" afterPath="$PROJECT_DIR$/css/reveal.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/reveal.js" afterPath="$PROJECT_DIR$/js/reveal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/reveal.scss" afterPath="$PROJECT_DIR$/css/reveal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/search/search.js" afterPath="$PROJECT_DIR$/plugin/search/search.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/serif.css" afterPath="$PROJECT_DIR$/css/theme/serif.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/serif.scss" afterPath="$PROJECT_DIR$/css/theme/source/serif.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/template/settings.scss" afterPath="$PROJECT_DIR$/css/theme/template/settings.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/simple.css" afterPath="$PROJECT_DIR$/css/theme/simple.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/simple.scss" afterPath="$PROJECT_DIR$/css/theme/source/simple.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/sky.css" afterPath="$PROJECT_DIR$/css/theme/sky.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/sky.scss" afterPath="$PROJECT_DIR$/css/theme/source/sky.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/examples/slide-backgrounds.html" afterPath="$PROJECT_DIR$/test/examples/slide-backgrounds.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/solarized.css" afterPath="$PROJECT_DIR$/css/theme/solarized.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/solarized.scss" afterPath="$PROJECT_DIR$/css/theme/source/solarized.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro.css" afterPath="$PROJECT_DIR$/lib/font/source-sans-pro/source-sans-pro.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-markdown-element-attributes.html" afterPath="$PROJECT_DIR$/test/test-markdown-element-attributes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-markdown-element-attributes.js" afterPath="$PROJECT_DIR$/test/test-markdown-element-attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-markdown-slide-attributes.html" afterPath="$PROJECT_DIR$/test/test-markdown-slide-attributes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-markdown-slide-attributes.js" afterPath="$PROJECT_DIR$/test/test-markdown-slide-attributes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-markdown.html" afterPath="$PROJECT_DIR$/test/test-markdown.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-markdown.js" afterPath="$PROJECT_DIR$/test/test-markdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-pdf.html" afterPath="$PROJECT_DIR$/test/test-pdf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test-pdf.js" afterPath="$PROJECT_DIR$/test/test-pdf.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.html" afterPath="$PROJECT_DIR$/test/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test.js" afterPath="$PROJECT_DIR$/test/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/template/theme.scss" afterPath="$PROJECT_DIR$/css/theme/template/theme.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/white.css" afterPath="$PROJECT_DIR$/css/theme/white.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/theme/source/white.scss" afterPath="$PROJECT_DIR$/css/theme/source/white.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/css/zenburn.css" afterPath="$PROJECT_DIR$/lib/css/zenburn.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugin/zoom-js/zoom.js" afterPath="$PROJECT_DIR$/plugin/zoom-js/zoom.js" />
+    </list>
+    <ignored path="meetup-talk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="meetup-talk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index_original.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index_original.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7632653" vertical-offset="765" max-vertical-offset="7038">
+              <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="true" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/index_original.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGruntFileManager">
+    <gruntfiles>
+      <GruntfileState>
+        <gruntfile-path>$PROJECT_DIR$/Gruntfile.js</gruntfile-path>
+      </GruntfileState>
+    </gruntfiles>
+    <initial>false</initial>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1176" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meetup-talk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meetup-talk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="meetup-talk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RunManager">
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4754c460-7fe8-4244-90c0-aa11e1047e57" name="Default" comment="" />
+      <created>1421959838045</created>
+      <option name="number" value="Default" />
+      <updated>1421959838045</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298279" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288719" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919848" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919848" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index_original.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7632653" vertical-offset="765" max-vertical-offset="7038">
+          <caret line="89" column="25" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
