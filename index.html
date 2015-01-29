@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>It Works On My Machine</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
 		<meta name="author" content="Hakim El Hattab">
@@ -82,12 +82,12 @@
 				<section>
 					and when they finally get a chance to code, the first push to prod results in...
 				</section>
+				<section data-background="http://cdn.meme.am/instances/500x/48009108.jpg" data-background-size="900px" data-background-repeat="none">
+				</section>
+				<section data-background="http://cdn.meme.am/instances/500x/22605665.jpg" data-background-size="900px" data-background-repeat="none">
+				</section>
 				<section>
-					Works on my machine!!!
-				</section>	
-				<section>
-					<h2>Solution #1</h2>
-					<h4 class="fragment">Provisioners</h4>
+					<h2>IT Automation Tools</h2>
 					<p class="fragment">Puppet</p>
 					<p class="fragment">Chef</p>
 					<p class="fragment">Ansible</p>
@@ -95,20 +95,22 @@
 					<aside class="notes">explain what a provisioner is!</aside>
 				</section>	
 				<section>
-					<h2>Problems with using just provisioners</h2>
-					<h4 class="fragment">Bound to hardware</h4>
-					<p class="fragment">can only have one setup</p>
-					<p class="fragment">inflexible infrastructure</p>
-					<p class="fragment">potential to cause problems with main OS</p>
-					<p class="fragment">port conflicts</p>
-					<p class="fragment">sifferent type of machine than production</p>
+					<h2>Problems with using just a provisioner</h2>
+					<h4 class="fragment">Still bound to hardware</h4>
+					<p class="fragment">Can only have one setup</p>
+					<p class="fragment">Inflexible infrastructure</p>
+					<p class="fragment">Potential to cause problems with main OS</p>
+					<p class="fragment">Port conflicts</p>
+					<p class="fragment">Different type of machine than production</p>
 					<aside class="notes">explain what a provisioner is!</aside>
 				</section>
-				<section>
-					what if i told you that you can have a computer within your computer
+                <section data-background="http://cdn.meme.am/instances/500x/55928632.jpg" data-background-size="750px" data-background-repeat="none">
 				</section>
 				<section>
-					virtualization definition
+                    <h2>Virtualization</h2>
+                    <blockquote cite="http://en.wikipedia.org/wiki/Virtualization">
+                        &ldquo;Virtualization, in computing, refers to the act of creating a virtual (rather than actual) version of something, including but not limited to a virtual computer hardware platform, operating system (OS), storage device, or computer network resources.&rdquo;
+                    </blockquote>
 				</section>
 				<section>
 					providers:
@@ -117,13 +119,44 @@
 					<p class="fragment">Docker</p>
 				</section>
 				<section>
-					advantages of virtualization:
+                    <h2>Virtualization the good parts</h2>
 					<p class="fragment">multiple vms on one machine</p>
 					<p class="fragment">flexibility</p>
 					<p class="fragment">you don't need to fear messing up your host machine</p>
 					<p class="fragment">dev matches production</p>
 				</section>
+                <section>
+                    <h2>Virtualization the not so good parts</h2>
+                </section>
+                <section>
+                    <h1>Vagrant the awesome</h1>
+                </section>
+                <section>
+                    <h2>VagrantFile</h2>
+					<pre><code data-trim contenteditable>
+Vagrant.configure(2) do |config|
 
+    config.vm.box = "ubuntu/trusty64"
+
+    config.vm.network "forwarded_port", guest: 80, host: 8080
+
+    config.vm.network "private_network", ip: "192.168.33.10"
+
+    config.vm.synced_folder ".", "/var/www"
+
+    config.vm.provision "shell", inline: <<-SHELL
+        sudo apt-get install -y apache2
+    SHELL
+
+end
+                    </code></pre>
+                </section>
+                <section>
+                    Chef
+                </section>
+                <section>
+                    <h3>Thank You!</h3>
+                </section>
 			</div>
 
 		</div>
