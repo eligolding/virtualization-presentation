@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -32,6 +32,11 @@
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
+
+		<style>
+			.reveal section img { background:none; border:none; box-shadow:none; }
+			.logos img { width: 25% }
+		</style>
 	</head>
 
 	<body>
@@ -82,16 +87,15 @@
 				<section>
 					and when they finally get a chance to code, the first push to prod results in...
 				</section>
-				<section data-background="http://cdn.meme.am/instances/500x/48009108.jpg" data-background-size="900px" data-background-repeat="none">
+				<section data-background="images/works-on-my-machine.jpg" data-background-size="900px" data-background-repeat="none">
 				</section>
-				<section data-background="http://cdn.meme.am/instances/500x/22605665.jpg" data-background-size="900px" data-background-repeat="none">
+				<section data-background="images/worked-in-dev.jpg" data-background-size="900px" data-background-repeat="none">
 				</section>
-				<section>
+				<section class="logos">
 					<h2>IT Automation Tools</h2>
-					<p class="fragment">Puppet</p>
-					<p class="fragment">Chef</p>
-					<p class="fragment">Ansible</p>
-					<p class="fragment">Salt</p>
+					<img src="images/Puppet_Labs_Logo.png">
+					<img src="images/pic-chef-logo.png">
+					<img src="images/AnsibleLogo_transparent_web.png">
 					<aside class="notes">explain what a provisioner is!</aside>
 				</section>	
 				<section>
@@ -104,7 +108,7 @@
 					<p class="fragment">Different type of machine than production</p>
 					<aside class="notes">explain what a provisioner is!</aside>
 				</section>
-                <section data-background="http://cdn.meme.am/instances/500x/55928632.jpg" data-background-size="750px" data-background-repeat="none">
+                <section data-background="images/what-if-i-told-you.jpg" data-background-size="750px" data-background-repeat="none">
 				</section>
 				<section>
                     <h2>Virtualization</h2>
@@ -112,25 +116,40 @@
                         &ldquo;Virtualization, in computing, refers to the act of creating a virtual (rather than actual) version of something, including but not limited to a virtual computer hardware platform, operating system (OS), storage device, or computer network resources.&rdquo;
                     </blockquote>
 				</section>
-				<section>
-					providers:
-					<p class="fragment">VM Ware</p>
-					<p class="fragment">Virtual box</p>
-					<p class="fragment">Docker</p>
+				<section class="logos">
+					<h3>Virtualization Providers</h3>
+					<img src="images/VMware.png">
+					<img src="images/Virtualbox_logo.png">
+					<img src="images/docker-logo-long.png">
 				</section>
 				<section>
                     <h2>Virtualization the good parts</h2>
-					<p class="fragment">multiple vms on one machine</p>
-					<p class="fragment">flexibility</p>
-					<p class="fragment">you don't need to fear messing up your host machine</p>
-					<p class="fragment">dev matches production</p>
+					<ul style="vertical-align: middle; display: inline-block">
+						<li class="fragment">Multiple VMs on one machine</li>
+						<li class="fragment">Flexibility</li>
+						<li class="fragment">Doesn't mess up your host machine</li>
+						<li class="fragment">Dev == Production</li>
+					</ul>
 				</section>
-                <section>
+				<section>
                     <h2>Virtualization the not so good parts</h2>
+					<ul>
+						<li class="fragment">Setup is very time consuming</li>
+						<li class="fragment">Must distribute it</li>
+						<li class="fragment">Maintain and Update</li>
+						<li class="fragment">Redistribute</li>
+					</ul>
                 </section>
-                <section>
-                    <h1>Vagrant the awesome</h1>
+				<section data-background="images/Vagrant.png" data-background-size="700px" data-background-repeat="none">
                 </section>
+				<section>
+					<h2>Vagrant Commands</h2>
+					<p class="fragment">vagrant up: Creates new machine</p>
+					<p class="fragment">vagrant suspend: Saves machine state</p>
+					<p class="fragment">vagrant halt: Powers off machine</p>
+					<p class="fragment">vagrant reload: Restarts machine</p>
+					<p class="fragment">vagrant destroy: Completely deletes the machine</p>
+				</section>
                 <section>
                     <h2>VagrantFile</h2>
 					<pre><code data-trim contenteditable>
@@ -152,10 +171,51 @@ end
                     </code></pre>
                 </section>
                 <section>
-                    Chef
+                    <img src="images/pic-chef-logo.png">
                 </section>
+				<section>
+					resources: element of your infrastructure
+				</section>
+				<section>
+					many resources make up a Recipe
+				</section>
+				<section>
+					many recipes make up a Cookbook
+				</section>
+				<section>
+					<h3>Running a Command</h3>
+					<pre><code>
+  execute "composer-install" do
+    cwd '/var/www/app'
+    command "composer install"
+  end
+					</code></pre>
+				</section>
+				<section>
+					<h3>Changing directory permissions</h3>
+					<pre><code>
+  directory "/vagrant/app/cache" do
+    owner "vagrant"
+    group "vagrant"
+    mode 0777
+    action :create
+  end
+					</code></pre>
+				</section>
+				<section>
+					<h3>Creating a symlink</h3>
+					<pre><code>
+  link "/etc/nginx/sites-enabled/my-cool-site" do
+    to "/etc/nginx/sites-available/my-cool-site"
+  end
+					</code></pre>
+				</section>
                 <section>
-                    <h3>Thank You!</h3>
+                    <h3>Questions?</h3>
+					<img style="width: 60%" src="images/questions.png">
+				</section>
+                <section>
+					<img src="images/thankyou_Arizona.png">
                 </section>
 			</div>
 
