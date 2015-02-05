@@ -1,159 +1,193 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 
-		<title>It Works On My Machine</title>
+	<title>It Works On My Machine</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="Hakim El Hattab">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/sky.css" id="theme">
 
-		<!-- Code syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<!-- Code syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
 
-		<!--[if lt IE 9]>
-		<script src="lib/js/html5shiv.js"></script>
-		<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
 
-		<style>
-			.reveal section img { background:none; border:none; box-shadow:none; }
-			.logos img { width: 25% }
-		</style>
-	</head>
+	<style>
+		.reveal section img {
+			background: none;
+			border: none;
+			box-shadow: none;
+		}
 
-	<body>
+		.logos img {
+			width: 25%
+		}
+	</style>
+</head>
 
-		<div class="reveal">
+<body>
 
-			<!-- Any section element inside of this container is displayed as a slide -->
-			<div class="slides">
-				<section>
-					<h1>It Works On My Machine</h1>
-					<h3>Virtualizing Development</h3>
-					<p>
-						<small>by Eli Golding / <a href="mailto:eligolding@gmail.com">eligolding@gmail.com</a> / <a href="http://twitter.com/eli_golding">@eli_golding</a></small>
-					</p>
-				</section>
-				<section>
-					<h1>Why Virtualize?</h1>
-				</section>
-				<section>
-					<section>
-						<h2>Traditional setup</h2>
-						<p>
-							Individual local development machines
-						</p>
-					</section>
-					<section>
-						<h2>new dev joins the team they must...</h2>
-						<p class="fragment roll-in">install web server (apache/nginx)...</p>
-						<p class="fragment roll-in">install PHP...</p>
-						<p class="fragment roll-in">install MySQL...</p>
-						<p class="fragment roll-in">install Redis, Memcache, NPM, RVM...</p>
-					</section>
-					<section>
-						<h2>we're not done...</h2>
-						<p class="fragment roll-in">configure all the things...</p>
-						<p class="fragment roll-in">get the code...</p>
-						<p class="fragment roll-in">attempt to serve the application...</p>
-						<p class="fragment roll-in">configure some more things to get it to work...</p>
-					</section>
-					<section>
-						<p>and when we're all done we have this:</p>
-						TODO: pics of four devs with different setups
-					</section>	
-				</section>
-				<section>
-					lets not forget about staging and production
-				</section>
-				<section>
-					and when they finally get a chance to code, the first push to prod results in...
-				</section>
-				<section data-background="images/works-on-my-machine.jpg" data-background-size="900px" data-background-repeat="none">
-				</section>
-				<section data-background="images/worked-in-dev.jpg" data-background-size="900px" data-background-repeat="none">
-				</section>
-				<section class="logos">
-					<h2>IT Automation Tools</h2>
-					<img src="images/Puppet_Labs_Logo.png">
-					<img src="images/pic-chef-logo.png">
-					<img src="images/AnsibleLogo_transparent_web.png">
-					<aside class="notes">explain what a provisioner is!</aside>
-				</section>	
-				<section>
-					<h2>Problems with using just a provisioner</h2>
-					<h4 class="fragment">Still bound to hardware</h4>
-					<p class="fragment">Can only have one setup</p>
-					<p class="fragment">Inflexible infrastructure</p>
-					<p class="fragment">Potential to cause problems with main OS</p>
-					<p class="fragment">Port conflicts</p>
-					<p class="fragment">Different type of machine than production</p>
-					<aside class="notes">explain what a provisioner is!</aside>
-				</section>
-                <section data-background="images/what-if-i-told-you.jpg" data-background-size="750px" data-background-repeat="none">
-				</section>
-				<section>
-                    <h2>Virtualization</h2>
-                    <blockquote cite="http://en.wikipedia.org/wiki/Virtualization">
-                        &ldquo;Virtualization, in computing, refers to the act of creating a virtual (rather than actual) version of something, including but not limited to a virtual computer hardware platform, operating system (OS), storage device, or computer network resources.&rdquo;
-                    </blockquote>
-				</section>
-				<section class="logos">
-					<h3>Virtualization Providers</h3>
-					<img src="images/VMware.png">
-					<img src="images/Virtualbox_logo.png">
-					<img src="images/docker-logo-long.png">
-				</section>
-				<section>
-                    <h2>Virtualization the good parts</h2>
-					<ul style="vertical-align: middle; display: inline-block">
-						<li class="fragment">Multiple VMs on one machine</li>
-						<li class="fragment">Flexibility</li>
-						<li class="fragment">Doesn't mess up your host machine</li>
-						<li class="fragment">Dev == Production</li>
-					</ul>
-				</section>
-				<section>
-                    <h2>Virtualization the not so good parts</h2>
-					<ul>
-						<li class="fragment">Setup is very time consuming</li>
-						<li class="fragment">Must distribute it</li>
-						<li class="fragment">Maintain and Update</li>
-						<li class="fragment">Redistribute</li>
-					</ul>
-                </section>
-				<section data-background="images/Vagrant.png" data-background-size="700px" data-background-repeat="none">
-                </section>
-				<section>
-					<h2>Vagrant Commands</h2>
-					<p class="fragment">vagrant up: Creates new machine</p>
-					<p class="fragment">vagrant suspend: Saves machine state</p>
-					<p class="fragment">vagrant halt: Powers off machine</p>
-					<p class="fragment">vagrant reload: Restarts machine</p>
-					<p class="fragment">vagrant destroy: Completely deletes the machine</p>
-				</section>
-                <section>
-                    <h2>VagrantFile</h2>
-					<pre><code data-trim contenteditable>
-Vagrant.configure(2) do |config|
+<div class="reveal">
+
+	<!-- Any section element inside of this container is displayed as a slide -->
+	<div class="slides">
+		<section>
+			<h1>It Works On My Machine</h1>
+
+			<h3>Virtualizing Development</h3>
+
+			<p>
+				<small>by Eli Golding / <a href="mailto:eligolding@gmail.com">eligolding@gmail.com</a> / <a
+						href="http://twitter.com/eli_golding">@eli_golding</a></small>
+			</p>
+		</section>
+		<section>
+			<h1>Why Virtualize?</h1>
+		</section>
+		<section>
+			<section>
+				<h2>Traditional setup</h2>
+
+				<p>
+					Individual local development machines
+				</p>
+			</section>
+			<section>
+				<h2>new dev joins the team they must...</h2>
+
+				<p class="fragment roll-in">install web server (apache/nginx)...</p>
+
+				<p class="fragment roll-in">install PHP...</p>
+
+				<p class="fragment roll-in">install MySQL...</p>
+
+				<p class="fragment roll-in">install Redis, Memcache, NPM, RVM...</p>
+			</section>
+			<section>
+				<h2>we're not done...</h2>
+
+				<p class="fragment roll-in">configure all the things...</p>
+
+				<p class="fragment roll-in">get the code...</p>
+
+				<p class="fragment roll-in">attempt to serve the application...</p>
+
+				<p class="fragment roll-in">configure some more things to get it to work...</p>
+			</section>
+			<section>
+				<p>and when we're all done we have this:</p>
+				TODO: pics of four devs with different setups
+			</section>
+		</section>
+		<section>
+			lets not forget about staging and production
+		</section>
+		<section>
+			and when they finally get a chance to code, the first push to prod results in...
+		</section>
+		<section data-background="images/works-on-my-machine.jpg" data-background-size="900px"
+				 data-background-repeat="none">
+		</section>
+		<section data-background="images/worked-in-dev.jpg" data-background-size="900px" data-background-repeat="none">
+		</section>
+		<section class="logos">
+			<h2>IT Automation Tools</h2>
+			<img src="images/Puppet_Labs_Logo.png">
+			<img src="images/pic-chef-logo.png">
+			<img src="images/AnsibleLogo_transparent_web.png">
+			<aside class="notes">explain what a provisioner is!</aside>
+		</section>
+		<section>
+			<h2>Problems with using just a provisioner</h2>
+			<h4 class="fragment">Still bound to hardware</h4>
+
+			<p class="fragment">Can only have one setup</p>
+
+			<p class="fragment">Inflexible infrastructure</p>
+
+			<p class="fragment">Potential to cause problems with main OS</p>
+
+			<p class="fragment">Port conflicts</p>
+
+			<p class="fragment">Different type of machine than production</p>
+			<aside class="notes">explain what a provisioner is!</aside>
+		</section>
+		<section>
+			<img width="500" src="images/what-if-i-told-you.jpg">
+		</section>
+		<section>
+			<h2>Virtualization</h2>
+			<blockquote cite="http://en.wikipedia.org/wiki/Virtualization">
+				&ldquo;Virtualization, in computing, refers to the act of creating a virtual (rather than actual)
+				version of something, including but not limited to a virtual computer hardware platform, operating
+				system (OS), storage device, or computer network resources.&rdquo;
+			</blockquote>
+		</section>
+		<section class="logos">
+			<h3>Virtualization Providers</h3>
+			<img src="images/VMware.png">
+			<img src="images/Virtualbox_logo.png">
+			<img src="images/docker-logo-long.png">
+		</section>
+		<section>
+			<h2>Virtualization the good parts</h2>
+			<ul style="vertical-align: middle; display: inline-block">
+				<li class="fragment">Multiple VMs on one machine</li>
+				<li class="fragment">Flexibility</li>
+				<li class="fragment">Doesn't mess up your host machine</li>
+				<li class="fragment">Dev == Production</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Virtualization the not so good parts</h2>
+			<ul>
+				<li class="fragment">Setup is very time consuming</li>
+				<li class="fragment">Must distribute it</li>
+				<li class="fragment">Maintain and Update</li>
+				<li class="fragment">Redistribute</li>
+			</ul>
+		</section>
+		<section data-background="images/Vagrant.png" data-background-size="700px" data-background-repeat="none">
+		</section>
+		<section>
+			<h2>Vagrant Commands</h2>
+
+			<p class="fragment">vagrant up: Creates new machine</p>
+
+			<p class="fragment">vagrant suspend: Saves machine state</p>
+
+			<p class="fragment">vagrant halt: Powers off machine</p>
+
+			<p class="fragment">vagrant reload: Restarts machine</p>
+
+			<p class="fragment">vagrant destroy: Completely deletes the machine</p>
+		</section>
+		<section>
+			<h2>VagrantFile</h2>
+				<pre><code class="ruby">
+  Vagrant.configure(2) do |config|
 
     config.vm.box = "ubuntu/trusty64"
 
@@ -164,36 +198,38 @@ Vagrant.configure(2) do |config|
     config.vm.synced_folder ".", "/var/www"
 
     config.vm.provision "shell", inline: <<-SHELL
-        sudo apt-get install -y apache2
+      sudo apt-get install -y apache2
     SHELL
 
-end
-                    </code></pre>
-                </section>
-                <section>
-                    <img src="images/pic-chef-logo.png">
-                </section>
-				<section>
-					resources: element of your infrastructure
-				</section>
-				<section>
-					many resources make up a Recipe
-				</section>
-				<section>
-					many recipes make up a Cookbook
-				</section>
-				<section>
-					<h3>Running a Command</h3>
-					<pre><code>
+  end
+				</code></pre>
+		</section>
+		<section>
+			<img src="images/pic-chef-logo.png">
+		</section>
+		<section>
+			resources: element of your infrastructure
+		</section>
+		<section>
+			many resources make up a Recipe
+		</section>
+		<section>
+			many recipes make up a Cookbook
+		</section>
+		<section>
+			<section><h2>Common Resources</h2></section>
+			<section>
+				<h3>Running a Command</h3>
+					<pre><code class="ruby">
   execute "composer-install" do
     cwd '/var/www/app'
     command "composer install"
   end
 					</code></pre>
-				</section>
-				<section>
-					<h3>Changing directory permissions</h3>
-					<pre><code>
+			</section>
+			<section>
+				<h3>Changing directory permissions</h3>
+					<pre><code class="ruby">
   directory "/vagrant/app/cache" do
     owner "vagrant"
     group "vagrant"
@@ -201,53 +237,145 @@ end
     action :create
   end
 					</code></pre>
-				</section>
-				<section>
-					<h3>Creating a symlink</h3>
-					<pre><code>
+			</section>
+			<section>
+				<h3>Creating a symlink</h3>
+					<pre><code class="ruby">
   link "/etc/nginx/sites-enabled/my-cool-site" do
     to "/etc/nginx/sites-available/my-cool-site"
   end
 					</code></pre>
-				</section>
-                <section>
-                    <h3>Questions?</h3>
-					<img style="width: 60%" src="images/questions.png">
-				</section>
-                <section>
-					<img src="images/thankyou_Arizona.png">
-                </section>
-			</div>
+			</section>
+			<section>
+				<h3>Running apt-get update</h3>
+					<pre><code class="ruby">
+  execute "apt-get update" do
+    command "apt-get update"
+  end					</code></pre>
+			</section>
+			<section>
+				<h3>Installing a package</h3>
+					<pre><code class="ruby">
+  apt_package "curl" do
+    action :install
+  end
+					</code></pre>
+			</section>
+			<section>
+				<h3>Installing multiple packages</h3>
+					<pre><code class="ruby">
+  php_packages = ['php5-cli','php5-curl','php5-mysql']
 
-		</div>
+  php_packages.each do |p|
+    apt_package p do
+      action :install
+    end
+  end
+					</code></pre>
+			</section>
+			<section>
+				<h3>Applying a template</h3>
+					<pre><code class="ruby">
+  template "/etc/nginx/sites-available/my-awesome-site" do
+    source "vhost.erb"
+    variables({
+      :doc_root    => '/var/www',
+      :server_name => 'vagrant.rox'
+    })
+    action :create
+    notifies :restart, resources(:service => "nginx")
+  end
+					</code></pre>
+					<pre><code>
+  server {
+      listen   80;
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+      root <%= @doc_root %>;
+      index index.html index.php;
 
-		<script>
+      server_name <%= @server_name %>;
 
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				center: true,
+      location / {
+          try_files $uri $uri/ /index.php;
+      }
 
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
+      error_page 404 /404.html;
 
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
-				]
-			});
+      error_page 500 502 503 504 /50x.html;
+      location = /50x.html {
+          root /usr/share/nginx/www;
+      }
 
-		</script>
+      location ~ \.php$ {
+          fastcgi_split_path_info ^(.+\.php)(/.+)$;
+          fastcgi_pass unix:/var/run/php5-fpm.sock;
+          fastcgi_index index.php;
+          fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+          include fastcgi_params;
+      }
+  }
+					</code></pre>
+			</section>
+		</section>
+		<section>
+			<img src="images/live-coding.jpg">
+		</section>
+		<section>
+			<h3>Questions?</h3>
+			<img style="width: 60%" src="images/questions.png">
+		</section>
+		<section>
+			<img src="images/thankyou_Arizona.png">
+		</section>
+	</div>
 
-	</body>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+
+	// Full list of configuration options available at:
+	// https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: true,
+
+		transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+		// Optional reveal.js plugins
+		dependencies: [
+			{
+				src: 'lib/js/classList.js', condition: function () {
+				return !document.body.classList;
+			}
+			},
+			{
+				src: 'plugin/markdown/marked.js', condition: function () {
+				return !!document.querySelector('[data-markdown]');
+			}
+			},
+			{
+				src: 'plugin/markdown/markdown.js', condition: function () {
+				return !!document.querySelector('[data-markdown]');
+			}
+			},
+			{
+				src: 'plugin/highlight/highlight.js', async: true, condition: function () {
+				return !!document.querySelector('pre code');
+			}, callback: function () {
+				hljs.initHighlightingOnLoad();
+			}
+			},
+			{src: 'plugin/zoom-js/zoom.js', async: true},
+			{src: 'plugin/notes/notes.js', async: true}
+		]
+	});
+
+</script>
+
+</body>
 </html>
