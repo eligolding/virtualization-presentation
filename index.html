@@ -97,16 +97,52 @@
 				<p class="fragment roll-in">configure some more things to get it to work...</p>
 			</section>
 			<section>
-				<p>and when we're all done we have this:</p>
-				TODO: pics of four devs with different setups
+				<table>
+					<tr>
+						<td style="border-right: 1px #000000 solid">
+							<h3>Dev #1</h3>
+							<ul>
+								<li>Apache 2.2.15</li>
+								<li>PHP 5.5.4</li>
+								<li>MySQL 5.4.5</li>
+							</ul>
+						</td>
+						<td>
+							<h3>Dev #2</h3>
+							<ul>
+								<li>Apache 2.2.3</li>
+								<li>PHP 5.5.1</li>
+								<li>MySQL 5.4.3</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td style="border-right: 1px #000000 solid">
+							<h3>Dev #3</h3>
+							<ul>
+								<li>Apache 2.2.24</li>
+								<li>PHP 5.4.3</li>
+								<li>MySQL 5.2.5</li>
+							</ul>
+						</td>
+						<td>
+							<h3>Dev #4</h3>
+							<ul>
+								<li>Apache 2.1.8</li>
+								<li>PHP 5.3.24</li>
+								<li>MySQL 5.1.6</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
 			</section>
 		</section>
-		<section>
+		<aside class="notes">
 			lets not forget about staging and production
-		</section>
-		<section>
+		</aside>
+		<aside class="notes">
 			and when they finally get a chance to code, the first push to prod results in...
-		</section>
+		</aside>
 		<section data-background="images/works-on-my-machine.jpg" data-background-size="900px"
 				 data-background-repeat="none">
 		</section>
@@ -121,7 +157,7 @@
 		</section>
 		<section>
 			<h2>Problems with using just a provisioner</h2>
-			<h4 class="fragment">Still bound to hardware</h4>
+			<h3>Still bound to hardware</h3>
 
 			<p class="fragment">Can only have one setup</p>
 
@@ -144,6 +180,12 @@
 				version of something, including but not limited to a virtual computer hardware platform, operating
 				system (OS), storage device, or computer network resources.&rdquo;
 			</blockquote>
+			<aside class="notes">A virtual machine is a software implementation of a computer, running a complete
+				operating system stack on a virtualizer. It is a full implementation of a computer with a virtual disk,
+				memory and CPU. The machine running the virtualizer is the Host system. The virtual machine running on
+				the virtualizer is the Guest system. As far as the Guest operating system is concerned, it is running on
+				real hardware. From the perspective of the Host, all of the Guest's resources are used by the virtualizer
+				program. A Box, or base image, is the prepackaged virtual machine that Vagrant will manage.</aside>
 		</section>
 		<section class="logos">
 			<h3>Virtualization Providers</h3>
@@ -172,37 +214,56 @@
 		<section data-background="images/Vagrant.png" data-background-size="700px" data-background-repeat="none">
 		</section>
 		<section>
-			<h2>Vagrant Commands</h2>
-
-			<p class="fragment">vagrant up: Creates new machine</p>
-
-			<p class="fragment">vagrant suspend: Saves machine state</p>
-
-			<p class="fragment">vagrant halt: Powers off machine</p>
-
-			<p class="fragment">vagrant reload: Restarts machine</p>
-
-			<p class="fragment">vagrant destroy: Completely deletes the machine</p>
+			<p>Vagrant is a command line tool that fully controls the creation and provisioning of virtual machines.</p>
+			<p>Everything is configured in a single file that is checked into version control.</p>
+			<p>Can be viewed as a wrapper around the VM provider and the provisioner.</p>
+		</section>
+		<section>
+			<h3>So now we have</h3>
+			<ul>
+				<li>Easy to share</li>
+				<li>Same exact version across all systems</li>
+				<li>Fast ramp up</li>
+				<li>"WORKS ON OUR MACHINE"</li>
+			</ul>
 		</section>
 		<section>
 			<h2>VagrantFile</h2>
 				<pre><code class="ruby">
-  Vagrant.configure(2) do |config|
+					Vagrant.configure(2) do |config|
 
-    config.vm.box = "ubuntu/trusty64"
+					config.vm.box = "ubuntu/trusty64"
 
-    config.vm.network "forwarded_port", guest: 80, host: 8080
+					config.vm.network "forwarded_port", guest: 80, host: 8080
 
-    config.vm.network "private_network", ip: "192.168.33.10"
+					config.vm.network "private_network", ip: "192.168.33.10"
 
-    config.vm.synced_folder ".", "/var/www"
+					config.vm.synced_folder ".", "/var/www"
 
-    config.vm.provision "shell", inline: <<-SHELL
-      sudo apt-get install -y apache2
-    SHELL
+					config.vm.provision "shell", inline: <<-SHELL
+					sudo apt-get install -y apache2
+					SHELL
 
-  end
+					end
 				</code></pre>
+		</section>
+		<section>
+			<h2>Vagrant Commands</h2>
+
+			<p class="fragment">vagrant up: start a new instance of the VM</p>
+
+			<p class="fragment">vagrant suspend: save state of the running VM</p>
+
+			<p class="fragment">vagrant resume: restart suspended VM</p>
+
+			<p class="fragment">vagrant halt: powers off VM</p>
+
+			<p class="fragment">vagrant reload: reboot VM</p>
+
+			<p class="fragment">vagrant destroy: Completely deletes the machine</p>
+		</section>
+		<section>
+			<img src="images/live-coding.jpg">
 		</section>
 		<section>
 			<img src="images/pic-chef-logo.png">
