@@ -143,10 +143,14 @@
 		<aside class="notes">
 			and when they finally get a chance to code, the first push to prod results in...
 		</aside>
-		<section data-background="images/works-on-my-machine.jpg" data-background-size="900px"
-				 data-background-repeat="none">
+		<section>
+			<img src="images/works-on-my-machine.jpg">
 		</section>
-		<section data-background="images/worked-in-dev.jpg" data-background-size="900px" data-background-repeat="none">
+		<section>
+			<img src="images/worked-in-dev.jpg">
+		</section>
+		<section>
+			<img src="images/automate-all-the-things.jpg">
 		</section>
 		<section class="logos">
 			<h2>IT Automation Tools</h2>
@@ -215,8 +219,9 @@
 		</section>
 		<section>
 			<p>Vagrant is a command line tool that fully controls the creation and provisioning of virtual machines.</p>
-			<p>Everything is configured in a single file that is checked into version control.</p>
-			<p>Can be viewed as a wrapper around the VM provider and the provisioner.</p>
+			<p class="fragment">Everything is configured in a single file (VagrantFile) that part of the project.</p>
+			<p class="fragment">Can be viewed as a wrapper around the VM provider and the provisioner.</p>
+			<p class="fragment">The VagrantFile is checked into version control, allowing for great portability.</p>
 		</section>
 		<section>
 			<h3>So now we have</h3>
@@ -230,21 +235,21 @@
 		<section>
 			<h2>VagrantFile</h2>
 				<pre><code class="ruby">
-					Vagrant.configure(2) do |config|
+  Vagrant.configure(2) do |config|
 
-					config.vm.box = "ubuntu/trusty64"
+	config.vm.box = "ubuntu/trusty64"
 
-					config.vm.network "forwarded_port", guest: 80, host: 8080
+	config.vm.network "forwarded_port", guest: 80, host: 8080
 
-					config.vm.network "private_network", ip: "192.168.33.10"
+	config.vm.network "private_network", ip: "192.168.33.10"
 
-					config.vm.synced_folder ".", "/var/www"
+	config.vm.synced_folder ".", "/var/www"
 
-					config.vm.provision "shell", inline: <<-SHELL
-					sudo apt-get install -y apache2
-					SHELL
+	config.vm.provision "shell", inline: <<-SHELL
+	  sudo apt-get install -y apache2
+	SHELL
 
-					end
+  end
 				</code></pre>
 		</section>
 		<section>
@@ -380,6 +385,13 @@
 		</section>
 		<section>
 			<img src="images/live-coding.jpg">
+		</section>
+		<section>
+			<blockquote>"If you want to increase innovation, you have to lower the cost of failure."</blockquote>
+			<ul style="list-style: none;">
+				<li>Joi Ito</li>
+				<li>Director, MIT Media Lab</li>
+			</ul>
 		</section>
 		<section>
 			<h3>Questions?</h3>
