@@ -84,6 +84,7 @@
 				<p class="fragment roll-in">install MySQL...</p>
 
 				<p class="fragment roll-in">install Redis, Memcache, NPM, RVM...</p>
+				<aside class="notes">If the dev is not a sysadmin, he might need a ton of help doing this.</aside>
 			</section>
 			<section>
 				<h2>we're not done...</h2>
@@ -234,8 +235,9 @@
 			</ul>
 		</section>
 		<section>
-			<h2>VagrantFile</h2>
-				<pre><code class="ruby">
+			<section>
+				<h2>VagrantFile</h2>
+				<pre><code class="ruby" contenteditable>
   Vagrant.configure(2) do |config|
 
 	config.vm.box = "ubuntu/trusty64"
@@ -252,6 +254,35 @@
 
   end
 				</code></pre>
+			</section>
+			<section>
+			<h2>Box</h2>
+				<pre><code class="ruby" contenteditable>
+  config.vm.box = "ubuntu/trusty64"
+				</code></pre>
+			</section>
+			<section>
+			<h2>Network</h2>
+				<pre><code class="ruby" contenteditable>
+  config.vm.network "forwarded_port", guest: 80, host: 8080
+
+  config.vm.network "private_network", ip: "192.168.33.10"
+				</code></pre>
+			</section>
+			<section>
+			<h2>Synced Folder</h2>
+				<pre><code class="ruby" contenteditable>
+  config.vm.synced_folder ".", "/var/www"
+				</code></pre>
+			</section>
+			<section>
+			<h2>Provision</h2>
+				<pre><code class="ruby" contenteditable>
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get install -y apache2
+  SHELL
+				</code></pre>
+			</section>
 		</section>
 		<section>
 			<h2>Vagrant Commands</h2>
