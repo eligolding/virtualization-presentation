@@ -260,6 +260,8 @@
 				<pre><code class="ruby" contenteditable>
   config.vm.box = "ubuntu/trusty64"
 				</code></pre>
+				<p>Configures the base box of the machine. Value should be the name of an installed box or a shorthand name of a box in HashiCorp's Atlas.</p>
+				<aside class="notes">box_url</aside>
 			</section>
 			<section>
 			<h2>Network</h2>
@@ -268,12 +270,15 @@
 
   config.vm.network "private_network", ip: "192.168.33.10"
 				</code></pre>
+				<p>Configures networks on the machine.</p>
 			</section>
 			<section>
 			<h2>Synced Folder</h2>
 				<pre><code class="ruby" contenteditable>
   config.vm.synced_folder ".", "/var/www"
 				</code></pre>
+				<p>Synced folders enable Vagrant to sync a folder on the host machine to the guest machine, allowing
+					you to continue working on your project's files on your host machine.</p>
 			</section>
 			<section>
 			<h2>Provision</h2>
@@ -282,6 +287,7 @@
     sudo apt-get install -y apache2
   SHELL
 				</code></pre>
+				<p>Set the Provisioners that will automatically install software, alter configurations, and more on the machine as part of the vagrant up process.</p>
 			</section>
 		</section>
 		<section>
